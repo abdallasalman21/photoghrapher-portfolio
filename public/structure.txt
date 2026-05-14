@@ -1,0 +1,392 @@
+ 1. Home (Landing Page)
+دي أهم صفحة لأنها أول انطباع
+✨ المحتوى:
+🔥 Hero Section
+
+
+اسمك:
+
+Mohamed Gamal
+
+
+
+Title:
+
+Photographer & Frontend Developer
+
+
+
+جملة قصيرة:
+
+I capture moments and build modern web experiences.
+
+
+
+أزرار:
+
+
+View Portfolio
+
+
+Contact Me
+
+
+
+
+
+📸 Highlights (صور سريعة)
+3 أو 4 صور من أفضل شغلك (wedding / portraits)
+
+⭐ Quick Intro
+سطرين عنك:
+
+I am a photographer and frontend developer passionate about creating visual stories and modern web interfaces using Angular and modern technologies.
+
+
+🚀 Stats (اختياري)
+
+
+50+ Events Covered
+
+
+100+ Edited Photos
+
+
+10+ Web Projects
+
+
+
+🧑‍💻 2. About Page
+دي بتحكي “مين أنت”
+✨ المحتوى:
+👤 Who I am
+فقرة بسيطة:
+
+I am a professional photographer and frontend developer based in Egypt. I specialize in wedding photography and building responsive web applications using Angular.
+
+
+🎯 Skills
+قسمها:
+Photography
+
+
+Wedding Photography
+
+
+Portraits
+
+
+Photo Editing
+
+
+Development
+
+
+Angular 19
+
+
+HTML / CSS / JS
+
+
+Bootstrap / Tailwind
+
+
+
+📄 CV Button
+
+
+Download CV
+
+
+
+🖼️ صورة شخصية أو صورة ليك في شغل
+
+📸 3. Portfolio Page
+دي أهم صفحة بعد Home
+✨ المحتوى:
+🔍 Filters
+
+
+All
+
+
+Weddings
+
+
+Portraits
+
+
+Events
+
+
+Web Projects
+
+
+
+🖼️ Gallery Grid
+صور شغلك بشكل Cards
+كل صورة:
+
+
+Hover effect
+
+
+View full image (lightbox)
+
+
+
+💡 فكرة احترافية:
+اعمل كل صورة معها:
+
+
+Title
+
+
+Location
+
+
+Date
+
+
+
+🛠️ 4. Services Page
+هنا بتبيع نفسك 👌
+✨ المحتوى:
+📸 Photography Services
+
+
+Wedding Photography
+
+
+Engagement Sessions
+
+
+Event Coverage
+
+
+
+💻 Web Development
+
+
+Frontend Development (Angular)
+
+
+Landing Pages
+
+
+Portfolio Websites
+
+
+
+🎨 Editing Services
+
+
+Photo Retouching
+
+
+Color Grading
+
+
+Lightroom Presets
+
+
+
+💡 اعرضهم كـ Cards فيها أيقونات
+
+📬 5. Contact Page
+هدفها إن العميل يوصلك
+✨ المحتوى:
+📩 Contact Form
+
+
+Name
+
+
+Email
+
+
+Subject
+
+
+Message
+
+
+
+📱 Contact Info
+
+
+WhatsApp
+
+
+Email
+
+
+Location (Mansoura, Egypt)
+
+
+
+🔗 Social Links
+
+
+Instagram (مهم جدًا للمصور)
+
+
+Facebook
+
+
+LinkedIn
+
+
+
+💡 CTA قوي:
+
+“Let’s work together and create something amazing.”
+
+
+🎯 نصيحة مهمة جدًا
+خلي كل صفحة فيها:
+
+
+تصميم بسيط
+
+
+صور قوية
+
+
+نص قليل لكن مؤثر
+
+
+Animations خفيفة
+
+
+
+🚀 لو عايز أرفعك مستوى أعلى
+أقدر أعملك:
+
+
+Structure Angular كامل (routes + components جاهزة)
+
+
+أو UI design احترافي لكل صفحة
+
+
+أو كود Home section جاهز جدًا ستايل premium
+
+
+أو فكرة dark portfolio زي Behance
+
+
+قولّي 👍
+
+
+//////////
+
+
+
+sevices:
+
+
+
+1️⃣ Hero Section
+
+أول الصفحة يكون عنوان قوي مع وصف مختصر.
+
+المحتوى:
+Subtitle: What I Offer
+Title: Professional Photography Services
+
+Description:
+
+From weddings and portraits to event coverage and professional photo editing, I create timeless images that tell your story.
+
+2️⃣ Services Grid
+
+أهم جزء في الصفحة.
+
+اعرض 4 خدمات رئيسية في كروت:
+
+Wedding Photography
+Portrait Photography
+Event Coverage
+Photo Editing & Color Grading
+كل Card يحتوي على:
+صورة كبيرة
+عنوان الخدمة
+وصف من سطرين
+قائمة مميزات صغيرة
+زر "Learn More" أو "Book Now"
+مثال Features:
+
+Wedding Photography
+
+Full-day coverage
+High-resolution images
+Professional editing
+3️⃣ Work Process
+
+قسم بسيط يوضح خطوات العمل.
+
+مثال:
+Consultation
+Planning
+Shooting Day
+Editing & Delivery
+التصميم:
+Timeline أفقي أو 4 Cards صغيرة
+4️⃣ Why Choose Me
+
+قسم يبني الثقة.
+
+نقاط مقترحة:
+Years of experience
+Attention to detail
+Natural and cinematic style
+Fast delivery
+5️⃣ Call To Action
+
+آخر الصفحة.
+
+المحتوى:
+
+Ready to capture your special moments?
+
+زر:
+
+Contact Me
+Book a Session
+🎨 الشكل النهائي للصفحة
+[ Hero Section ]
+
+[ 4 Service Cards ]
+
+[ Work Process (4 Steps) ]
+
+[ Why Choose Me ]
+
+[ CTA Section ]
+⭐ لو عايز نسخة أبسط جدًا
+
+لو مش عايز الصفحة تبقى طويلة:
+
+[ Hero ]
+[ Services Grid ]
+[ CTA ]
+
+وده كافي جدًا لبورتفليو شخصي.
+
+🏆 ترشيحي لك
+
+بما إنك مصور أفراح، أفضل Structure هو:
+
+Hero
+Services Grid
+Work Process
+CTA
+
+بسيط، احترافي، ويعرض خدماتك بشكل واضح.
+
+لو حابب، أقدر أجهز لك أيضًا:
+
+UI Design كامل للصفحة
+Angular Components Structure
+محتوى نصوص جاهزة لكل خدمة

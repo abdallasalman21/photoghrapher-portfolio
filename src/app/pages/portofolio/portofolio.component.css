@@ -1,0 +1,17 @@
+select{
+  
+  
+}
+select option{
+    background-color: white !important;
+    color: rgb(0, 88, 88);
+    text-align: center;
+    align-self: center;
+    justify-self: center;
+    margin-inline:auto;
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+}

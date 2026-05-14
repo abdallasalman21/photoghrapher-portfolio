@@ -1,0 +1,207 @@
+/* :host {
+  display: block;
+  min-height: 100vh;
+  position: relative;
+  overflow: hidden;
+  --swiper-theme-color:#e17100
+}
+
+:host::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+
+  background: url('/images/homebg.jpg') center/cover no-repeat;
+  filter: blur(6px);
+  transform: scale(1.05);
+  z-index: -2;
+}
+
+:host::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.195);
+  z-index: -1;
+} */
+
+
+html, body {
+  height: 100%;
+  margin: 0;
+  --swiper-theme-color:#e17100;
+
+}
+
+.carousel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mySwiper {
+  width: min(900px, 92%);
+  height: 70vh;
+  border-radius: 24px;
+  overflow: hidden;
+  --swiper-theme-color:#e17100;
+
+}
+
+.mySwiper img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.swiper-button-next, .swiper-button-prev{
+  color: #e17100;
+  background:#fef3c991;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  color: white;
+}
+.swiper-pagination-bullet {
+  background: #e17100;
+  opacity: 0.5;
+}
+.swiper-pagination-bullet-active {
+  background: #e17100;
+  opacity: 1;
+}
+
+/* get touch section */
+
+.gettouch {
+  position: relative;
+  overflow: hidden;
+  /* border-radius: 24px; */
+  background: #111827; 
+}
+.gettouch .image{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.1;
+}
+
+.gettouch::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(circle at 25% 30%, rgba(232, 124, 16, 0.199), transparent 38%),
+    radial-gradient(circle at 75% 70%, rgba(25, 192, 222, 0.23), transparent 42%);
+  z-index: 0;
+}
+
+.gettouch::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background:
+    linear-gradient(135deg, rgba(223, 114, 6, 0.199), transparent 35%),
+    linear-gradient(to bottom, rgba(25, 192, 222, 0.23), rgba(17,24,39,0.08));
+  z-index: 0;
+}
+
+.gettouch .content {
+  position: relative;
+  z-index: 2;
+}
+.gettouch .content .touchbtn{
+  position: relative;
+  transition: all ease-in-out 0.5s;
+
+}
+.gettouch .content .touchbtn::after{
+  content: '';
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 2px;
+  height: 3px;
+  background-color: whitesmoke;
+  color: whitesmoke;
+
+  transition: all ease-in-out 0.3s;
+}
+.gettouch .content .touchbtn:hover::after{
+  width: 100%;
+  
+}
+
+
+/* stats section */
+.stats{}
+.stats .cards{
+
+}
+.stats .cards .card{
+  position: relative;
+  overflow: hidden;
+  /* background: #111827;  */
+z-index: 10;
+  background:
+    linear-gradient(135deg, rgba(223, 115, 6, 0.658), transparent 35%),
+    linear-gradient(to bottom, rgba(25, 193, 222, 0.601), rgba(17, 24, 39, 0.541));
+}
+.stats .cards .card:hover{
+  position: relative;
+  overflow: hidden;
+  /* background: #111827;  */
+z-index: 10;
+  background:
+    linear-gradient(135deg,  rgba(25, 193, 222, 0.601),  transparent 35%),
+    linear-gradient(to top, rgba(225, 124, 23, 0.447),rgba(17, 24, 39, 0.541));
+}
+
+.stats .aboutme{
+  
+  position: relative;
+  transition: all ease-in-out 0.5s;
+
+}
+.stats .aboutme::after{
+  content: '';
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 2px;
+  height: 3px;
+  background-color: whitesmoke;
+  color: whitesmoke;
+
+  transition: all ease-in-out 0.3s;
+}
+.stats .aboutme:hover::after{
+  width: 100%;
+  
+}
+/* .stats .cards .card::before{
+  content: '';
+  position: absolute;
+  inset: 0;
+  background:
+    linear-gradient(135deg, rgba(223, 114, 6, 0.199), transparent 35%),
+    linear-gradient(to bottom, rgba(25, 192, 222, 0.23), rgba(17,24,39,0.08));
+z-index: 0;
+
+}
+.stats .cards .card::after{
+  content: '';
+
+  position: absolute;
+  inset: 0;
+background:
+    radial-gradient(circle at 25% 30%, rgba(232, 124, 16, 0.199), transparent 38%),
+    radial-gradient(circle at 75% 70%, rgba(25, 192, 222, 0.23), transparent 42%);
+z-index: 0;
+
+} */

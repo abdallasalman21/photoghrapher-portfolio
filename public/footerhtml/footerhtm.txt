@@ -1,0 +1,119 @@
+<footer class="w-full">
+  <section
+    class="footer-content grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 px-16 py-20 justify-center justify-items-center"
+  >
+    <div class="side text-white py-3">
+      <h1 class="title text-4xl pb-16">Home</h1>
+      <ul class="flex flex-col gap-5">
+        <li>
+          <a routerLink="/home">
+            <div class="image bg-cyan-950 rounded-sm px-12 py-20">
+              <img
+                src="/images/cccccccc new logo as jpg white psd0.png"
+                alt=""
+                class="w-[250px] h-auto"
+              />
+            </div>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <!-- col 2 -->
+
+    <div class="side text-white py-3">
+      <h1 class="title text-4xl pb-16">Navigation</h1>
+      <ul class="flex flex-col gap-5">
+        <li>
+          <a class="text-xl ps-2" routerLink="/home"> home </a>
+        </li>
+
+        <li>
+          <a class="text-xl ps-2" routerLink="/contact"> contact </a>
+        </li>
+
+        <li>
+          <a class="text-xl ps-2" routerLink="/portofolio"> portofolio </a>
+        </li>
+
+        <li>
+          <a class="text-xl ps-2" routerLink="/about"> about </a>
+        </li>
+        <li>
+          <a class="text-xl ps-2" routerLink="/services"> services </a>
+        </li>
+      </ul>
+    </div>
+
+    <!-- col 3 -->
+
+    <div class="side text-white py-3">
+      <h1 class="title text-4xl pb-16">Contact</h1>
+      <ul class="flex flex-col gap-5">
+        <li>
+          <span
+            class="flex gap-0.5 flex-row align-middle justify-items-center text-center"
+          >
+            <i class="fa-solid fa-envelope-circle-check pe-1"></i>
+            abdallasalman21<i
+              class="fa-solid fa-at font-sans font-thin pt-1 px-0.5"
+            ></i
+            >gmail.com
+          </span>
+        </li>
+
+        <li>
+          <span
+            class="flex gap-0.5 flex-row align-middle justify-items-center text-center"
+          >
+            <i class="fa-solid fa-location-dot self-center pe-1"></i>
+            Cairo
+          </span>
+        </li>
+
+        <li>
+          <span
+            class="flex gap-0.5 flex-row align-middle justify-items-center text-center"
+          >
+            <i class="fa-brands fa-whatsapp self-center pe-1"></i>
+            +20 1097593026
+          </span>
+        </li>
+      </ul>
+    </div>
+    <!-- col 4 -->
+    <div class="side text-white py-3">
+      <span class="">
+        <img
+          src="/images/qr code instgram.png"
+          alt="instgram"
+          class="w-[200px] h-[200px]"
+        />
+      </span>
+      <ul class="links flex flex-row gap-3 py-5 justify-center">
+        <li>
+          <a href="#">
+            <i class="text-3xl fa-brands fa-linkedin"></i>
+          </a>
+        </li>
+
+        <li>
+          <a href="#">
+            <i class="text-3xl fa-brands fa-instagram"></i>
+          </a>
+        </li>
+
+        <li>
+          <a href="#">
+            <i class="text-3xl fa-brands fa-facebook"></i>
+          </a>
+        </li>
+
+        <li>
+          <a href="#">
+            <i class="text-3xl fa-brands fa-square-github"></i>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </section>
+</footer>

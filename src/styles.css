@@ -1,1 +1,53 @@
-/* You can add global styles to this file, and also import other style files */
+@import "tailwindcss";
+@import 'aos/dist/aos.css';
+@plugin "flowbite/plugin";
+@source "../node_modules/flowbite";
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&display=swap');
+
+swiper-container {
+  --swiper-theme-color: #e17100;
+  --swiper-navigation-color: #e17100;
+  --swiper-pagination-color: #e17100;
+  --swiper-navigation-size: 22px;
+
+  --swiper-pagination-bullet-size: 10px;
+  --swiper-pagination-bullet-inactive-color: rgba(255,255,255,0.35);
+  --swiper-pagination-bullet-inactive-opacity: 1;
+}
+
+
+swiper-container::part(button-prev),
+swiper-container::part(button-next) {
+  background: rgba(0, 0, 0, 0.008);
+  width: 48px;
+  height: 48px;
+  border-radius: 999px;
+  color: #e17100;
+}
+
+
+swiper-container::part(button-prev) {
+  margin-left: -18px;
+}
+
+swiper-container::part(button-next) {
+  margin-right: -18px;
+}
+
+
+swiper-container::part(bullet) {
+  background: #e1700077;
+  opacity: 1;
+}
+
+swiper-container::part(bullet-active) {
+  background: #e17100;
+}
+
+/* nav{
+    font-family: "Cormorant Garamond", serif;
+}
+*{
+    font-family: "Cormorant Garamond", serif;
+} */

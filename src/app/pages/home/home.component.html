@@ -1,0 +1,190 @@
+<div class="py-24">
+  <section class="hero flex flex-col justify-between">
+    <h1 class="hero-title text-black text-4xl md:text-5xl/9 lg:text-7xl/21 py-12 px-10 text-center">
+      European style
+      <br />
+      through an Arab lens.
+    </h1>
+    <div
+      class="hero-content text-left text-white align-middle flex flex-col px-5 py-5"
+    >
+      <h1 class="name text-4xl text-gray-600 text-center py-2">
+        <span class="welcome px-2 content-center"> Welcome </span>
+        To <span class="text-5xl text-amber-500">Rakii</span> Website
+      </h1>
+      <h3 class="text-gray-600 text-center">
+        Professional Photographer 
+      </h3>
+    </div>
+
+    <!-- buttons -->
+
+    <div class="hero-btn">
+      <button
+      type="button"
+      routerLink="/portofolio"
+      class="flex cursor-pointer text-center w-fit mx-auto rounded-sm transition-all duration-300 text-white bg-gradient-to-r from-cyan-500 to-amber-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 font-medium rounded-base text-sm px-4 py-2.5 text-center leading-5"
+    >
+      Show Portfolio
+    </button>
+    </div>
+  </section>
+
+  <!-- carousel section -->
+
+  <section
+    class="carousel min-h-screen w-full flex items-center justify-center bg-[#fffae54a] my-3"
+  >
+    <swiper-container
+      space-between="30"
+      speed="900"
+      loop="true"
+      autoplay-delay="2500"
+      autoplay-disable-on-interaction="true"
+      pagination="true"
+      navigation="true"
+      class="mySwiper"
+      breakpoints='{
+    "0": {
+      "slidesPerView": 1
+    },
+    "640": {
+      "slidesPerView": 2
+    },
+    "1024": {
+      "slidesPerView": 3
+    }
+  }'
+    >
+      <swiper-slide>
+        <img src="/images/mayada (3).jpg" />
+      </swiper-slide>
+      <swiper-slide>
+        <img src="/images/mayada (4).jpg" />
+      </swiper-slide>
+      <swiper-slide>
+        <img src="/images/mayada (6).jpg" />
+      </swiper-slide>
+
+      <swiper-slide>
+        <img src="/images/basma (1).jpg" />
+      </swiper-slide>
+      <swiper-slide>
+        <img src="/images/basma (2).jpg" />
+      </swiper-slide>
+      <swiper-slide>
+        <img src="/images/basma (4).jpg" />
+      </swiper-slide>
+
+      <swiper-slide>
+        <img src="/images/yasso (8).jpg" />
+      </swiper-slide>
+      <swiper-slide>
+        <img src="/images/yasso (1).jpg" />
+      </swiper-slide>
+      <swiper-slide>
+        <img src="/images/yasso (7).jpg" />
+      </swiper-slide>
+    </swiper-container>
+  </section>
+
+  <!-- end carousel -->
+
+  <!-- start get touch section -->
+
+  <section class="gettouch my-6 py-24">
+    <div class="image">
+      <img src="/images/yellowtree.png" alt="" />
+    </div>
+    <div
+      class="content flex flex-col justify-between text-white text-center px-7 py-10"
+      data-aos="fade-down"
+     data-aos-easing="linear"
+     data-aos-duration="1500"
+    >
+      <p class="text-xl pb-14 font-bold">Photoghrapher of objects</p>
+
+      <h1 class="text-wrap md:text-3xl/9 lg:text-6xl/18 pb-20">
+        Rakii is a photographer creating thoughtful visual stories and refined
+        imagery for people, brands, and modern businesses.
+      </h1>
+
+      <a
+        routerLink="/contact"
+        class="touchbtn capitalize text-xl w-fit mx-auto transition-all pb-6"
+        >Get in Touch</a
+      >
+    </div>
+  </section>
+
+  <!-- end get touch section -->
+
+  <!-- start stats section-->
+  <section class="stats my-6 py-24">
+    <div
+      class="cards grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-items-center text-center pb-7 text-white gap-5"
+    >
+      <div class="card block max-w-sm p-6 rounded-base shadow-xs"
+      data-aos="fade-right"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine"
+      >
+        <div class="icon py-10">
+          <i class="fa-solid fa-camera-retro text-5xl text-white"></i>
+        </div>
+        <a>
+          <h5 class="mb-2 text-2xl font-semibold tracking-tight text-heading">
+            <span class="text-amber-700 font-bold">30+</span> Events Covered
+          </h5>
+        </a>
+        <p class="mb-3 text-body">
+          Moments captured with precision and emotion
+        </p>
+      </div>
+      <!-- card 2  -->
+      <div class="card block max-w-sm p-6 rounded-base shadow-xs"
+      data-aos="fade-up"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine"
+      
+      >
+        <div class="icon py-10">
+          <i class="fa-solid fa-laptop text-5xl text-white"></i>
+        </div>
+        <a>
+          <h5 class="mb-2 text-2xl font-semibold tracking-tight text-heading">
+            <span class="text-amber-700 font-bold">10000+</span> Edited Photos
+          </h5>
+        </a>
+        <p class="mb-3 text-body">Each photo carefully refined to perfection</p>
+      </div>
+      <!-- card 3 -->
+
+      <div class="card block max-w-sm p-6 rounded-base shadow-xs"
+      data-aos="fade-left"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine"
+      >
+        <div class="icon py-10">
+          <i class="fa-solid fa-heart text-5xl text-white"></i>
+        </div>
+        <a>
+          <h5 class="mb-2 text-2xl font-semibold tracking-tight text-heading">
+            <span class="text-amber-700 font-bold">150+</span> Wedding session
+          </h5>
+        </a>
+        <p class="mb-3 text-body">
+          Every session crafted with style and detail
+        </p>
+      </div>
+    </div>
+    <a
+      routerLink="/about"
+      class="aboutme capitalize text-xl w-fit mx-auto transition-all mt-5 flex bg-cyan-800 text-amber-50 px-5 py-2 rounded-sm text-center justify-center"
+      
+      data-aos="zoom-out"
+      >About me</a
+    >
+    <!-- end 3 cards -->
+  </section>
+</div>
