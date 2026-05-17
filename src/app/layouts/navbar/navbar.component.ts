@@ -12,10 +12,21 @@ import { RouterLink, RouterLinkActive } from "@angular/router";
 })
 export class NavbarComponent implements OnInit {
    constructor(private flowbiteService: FlowbiteService) {}
+
+     isMenuOpen = false;
+
+  toggleMenu() {
+    this.isMenuOpen = !this.isMenuOpen;
+  }
+
+  closeMenu() {
+    this.isMenuOpen = false;
+  }
  ngOnInit(): void {
     this.flowbiteService.loadFlowbite((flowbite) => {
       initFlowbite();
     });
+    
   }
 
 }
