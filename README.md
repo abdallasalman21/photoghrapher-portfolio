@@ -1,4 +1,4 @@
-<img width="3594" height="2753" alt="cameraimmg" src="https://github.com/user-attachments/assets/f7b263fa-e28d-4ee9-aa65-b18dee96852e" />
+
 # Portfolio
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.20.
