@@ -1,3 +1,4 @@
+<img width="3594" height="2753" alt="cameraimmg" src="https://github.com/user-attachments/assets/f7b263fa-e28d-4ee9-aa65-b18dee96852e" />
 # Portfolio
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.20.
@@ -45,6 +46,8 @@ ng test
 ```
 
 ## Running end-to-end tests
+<img width="1911" height="916" alt="Screenshot 2026-05-17 200342" src="https://github.com/user-attachments/assets/77fe1ec8-e5e6-4ceb-8166-f5e2798d490c" />
+
 
 For end-to-end (e2e) testing, run:
 
